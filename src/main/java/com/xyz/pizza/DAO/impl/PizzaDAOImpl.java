@@ -83,7 +83,7 @@ public class PizzaDAOImpl implements PizzaDAO {
 			LOGGER.info("Output File Write Start");
 			fileoutputStream = new FileOutputStream(file);
 			bw = new BufferedWriter(new OutputStreamWriter(fileoutputStream));
-			bw.write(String.format("%5s\t%10s","NAME","TIME"));
+			bw.write(String.format("%5s\t%15s","NAME","TIME"));
 			bw.newLine();
 			for (Order order : orders) {
 				line = String.format("%-10s\t%-20s", order.getPizza().getName(),PizzaUtil.convertEpochToUTC(order.getOrderTime() * 1000));
