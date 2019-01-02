@@ -10,10 +10,10 @@
 #### Step 3: Go to extracted folder using command line.
 
 #### Step 4: Build the application using below Maven Command.
-        Example: C:\Pizza> mvn clean compile package <enter>
+        Example: C:\PizzaSorting-master> mvn clean compile package <enter>
         
 #### Step 5: Run the application using below command.
-     Example: C:\Pizza> java -jar target\PizzaSorting-0.0.1-SNAPSHOT.jar com.xyz.pizza.PizzaSortingApplication <SourceFile> <DestinationFile> <enter>        
+     Example: C:\PizzaSorting-master> java -jar target\PizzaSorting-0.0.1-SNAPSHOT.jar com.xyz.pizza.PizzaSortingApplication <SourceFile> <DestinationFile> <enter>        
      Note : Sample input file "sampleOrders.txt" and output file "output.txt" are available in the root folder.
      
 #### Step 6: Check the output file in the destination folder.
