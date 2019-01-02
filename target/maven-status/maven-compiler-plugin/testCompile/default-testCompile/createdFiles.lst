@@ -1,0 +1,6 @@
+com\xyz\pizza\PizzaSortingApplicationTests.class
+com\xyz\pizza\utils\PizzaUtilTest.class
+com\xyz\pizza\beans\OrderTest.class
+com\xyz\pizza\controller\PizzaControllerTest.class
+com\xyz\pizza\DAO\impl\PizzaDAOImplTest.class
+com\xyz\pizza\service\impl\PizzaSortServiceImplTest.class
